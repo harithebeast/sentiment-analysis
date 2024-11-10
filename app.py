@@ -30,7 +30,7 @@ def load_model():
 rf, tf, label_encoder = load_model()
 
 # Set up the YouTube API
-YOUTUBE_API_KEY = "AIzaSyAXjgC8zQSrma6jenWEDNlzySY0L884NqE"
+YOUTUBE_API_KEY = "API_KEY"
 youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 
 # Dummy sarcasm detection function (implement your own logic)
